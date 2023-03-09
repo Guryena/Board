@@ -16,8 +16,8 @@ public class Inventory extends BoardHM {
 		} else if (number > 0) {
 			for (HashMap.Entry<Integer, BoardBody> index : map.entrySet()) {
 				
-				result = "번호: " + index.getKey() + " 제목: " + index.getValue().title + " 작성자: " + index.getValue().name
-						+ " 날짜 : " + index.getValue().date;
+				result = "번호: " + index.getKey() + " 제목: " + index.getValue().title + " 작성자: " + 
+				index.getValue().name + " 날짜 : " + index.getValue().date;
 				System.out.println(result);
 			}
 		}

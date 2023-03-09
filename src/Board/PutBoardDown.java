@@ -39,5 +39,4 @@ public class PutBoardDown extends BoardHM implements ShowDate {
 				 this.name + "날짜: "+this.date;
 	}
 	
-//	System.out.println("새 글이 정상적으로 등록되었습니다." + '\n');
 }
